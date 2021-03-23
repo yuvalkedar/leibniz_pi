@@ -2,6 +2,8 @@
 // Calculating Pi using Leibniz's formula
 // https://en.wikipedia.org/wiki/Leibniz_formula_for_π
 
+#include <Arduino.h>
+
 #define SERIAL_BAUDRATE	115200
 #define PI				3.14159265359
 #define FACTOR			10	// to see more clearly on the Serial Plotter
